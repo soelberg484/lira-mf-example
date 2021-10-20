@@ -1,0 +1,61 @@
+{
+  "name": "mf-company-media",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "/mf-media",
+  "dependencies": {
+    "@emotion/babel-plugin": "^11.3.0",
+    "@emotion/babel-preset-css-prop": "^11.2.0",
+    "@emotion/core": "10.0.35",
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-portal": "^4.0.2",
+    "axios": "^0.23.0",
+    "customize-cra": "^1.0.0",
+    "react": "^17.0.2",
+    "react-app-rewired": "^2.1.8",
+    "react-dom": "^17.0.2",
+    "react-portal": "^4.2.1",
+    "react-scripts": "4.0.3",
+    "react-select": "^3.2.0",
+    "serve": "^12.0.1",
+    "typescript": "^4.4.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "serve": "serve --cors -s build",
+    "tsc": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1",
+    "prettier": "^2.2.1"
+  },
+  "local_proxy": "http://localhost:3005",
+  "proxy": "http://localhost:3005"
+}
